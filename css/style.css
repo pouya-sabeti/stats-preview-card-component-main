@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'LexendDeca';
+    src: url("../Font/LexendDeca-Light.ttf");
+    font-weight: 400;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(233, 47%, 7%);
+    font-family: 'LexendDeca';
+}
+.main{
+width: 100%;
+height:100%;
+
+}
+.box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 85%;
+    height: 423px;
+    background: hsl(244, 38%, 16%);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    padding: 60px 110px 60px 55px;
+    text-align: left;
+}
+.right{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.left h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 34px;
+    
+}
+.left h3 span{
+   color:  hsl(277, 64%, 61%);
+
+}
+.left p {
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+ line-height: 20px;
+ margin-top: 25px;
+ }
+ .bottom-left{
+     width: 110%;
+     height: auto;
+     display: grid;
+     grid-template-columns: 33% 33% 33%;
+ }
+ .bottom-left div{
+     width: 100%;
+text-align: left;
+margin-top: 80px;
+ }
+ .bottom-left div h4{
+     color: #fff;
+     font-size: 22px;
+ }
+ .bottom-left div h5{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size:12px;
+margin-top: 5px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.right img{
+    width: 100%;
+    height: 99.5%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.win{
+    width: 100%;
+    height: 99.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsl(277, 64%, 61%);
+    opacity: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
